@@ -177,6 +177,14 @@ ul li{
      left: 25%;
      background-color: rgba(250, 235, 215, 0.256);
 }
-
+.video{
+     width: 1920px;
+     height: 1022px;
+     margin-top: 100px;
+     background: linear-gradient(3deg, #000 -6.76%, rgba(0, 0, 0, 0.00) 47.27%), url('./img/Rectangle-5.jpg'), lightgray 50%  ;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
 /* sub banner end */
  
