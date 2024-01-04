@@ -63,7 +63,7 @@ ul li{
      letter-spacing: -0.51px;
      text-transform: uppercase
 }
-/* banner */
+/* banner start */
 .banner{
      padding: 34px 270px;
      width: 1925px;
@@ -139,4 +139,44 @@ ul li{
      width: 529px;
      height: 636px;
 }
+/* banner ens */
+/* sub banner start */
+.sub{
+     position: relative;
+}
+.sub-banner{
+     width: 841px;
+     height: 425px;
+     margin-top: 200px;
+     margin-left: 580px;
+     margin-right: 499px;
+     background-color: #fff;
+   
+     
+}
+.sub-banner .fist-p{
+     color: var(--primary-text-color);
+     font-size: 57px;
+     font-weight: 500;
+     line-height: 75px;
+     z-index: 9999;
+}
+.fist-p2{
+     color: var(--primary-text-color);
+     font-family: Plus Jakarta Sans;
+     font-size: 23px;
+     font-weight: 400;
+     line-height: 40px;
+}
+.circle{
+     position: absolute;
+     width: 250px;
+     height: 250px;
+     border-radius: 50%;
+     top: -20%;
+     left: 25%;
+     background-color: rgba(250, 235, 215, 0.256);
+}
+
+/* sub banner end */
  
