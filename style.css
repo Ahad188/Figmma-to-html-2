@@ -1,0 +1,125 @@
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+}
+:root{
+     --primary-text-color :#1D1A1A;
+     --1-brand-color-primary-color:#FF6B3D;
+     --text-color:#fff;
+}
+/* header */
+header{
+     display: flex;
+     align-items: center;
+     gap: 357px;
+     padding: 34px 270px;
+     width: 1925px;
+     height: 120px;
+}
+.logo{
+     color: var(--primary-text-color);
+     font-family: Plus Jakarta Sans;
+     font-size: 21px;
+     font-weight: 700;
+     line-height: 23.2px;
+}
+ul{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+     /* border: 2px solid red; */
+}
+ul li{
+     font-family: Plus Jakarta Sans;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 28px;  
+     letter-spacing: -0.51px;
+     text-transform: uppercase;
+     color: var(--primary-text-color);
+}
+ 
+
+.btn{
+     width: 205px;
+     height: 52px;
+     border-radius: 880px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     background-color: #FF6B3D;
+     border: none;
+}
+.sing{
+     color: #fff;
+     font-size: 17px;
+     font-weight: 600;
+     line-height: 28px; /* 164.706% */
+     letter-spacing: -0.51px;
+     text-transform: uppercase
+}
+/* banner */
+.banner{
+     padding: 34px 270px;
+     width: 1925px;
+     /* border: 2px solid red; */
+}
+.content{
+     width: 1380px;
+     height: 638px;
+     /* border: 2px solid green; */
+     display: flex;
+     align-items: center;
+     gap: 60px;
+}
+.left h6{
+     width: 6660px;
+     color:var(--primary-text-color);
+     font-size: 96px;
+     font-weight: 500;
+     line-height: 105px;
+     width: 660px;
+}
+ 
+.left-btn{
+     display: flex;
+     padding: 30px 0px;
+     align-items: center;
+     gap: 10px;
+     margin-top: 60px;
+}
+.btn-2{
+     width: 195px;
+     height: 52px;
+     border-radius: 800px;
+     background: #FF6B3D;
+     border: none;
+     display: inline-block;
+}
+.btn-2 span{
+     color: var(--text-color);
+     font-size: 17px;
+     font-weight: 600;
+     line-height: 28px; /* 164.706% */
+     letter-spacing: -0.51px;
+     text-transform: uppercase;
+}
+.explor{
+     display: flex;
+     align-items: center;
+     gap: 10px;
+}
+.explor a{
+     text-decoration: underline;
+}
+.rght{
+     width: 660px;
+     
+     padding: 20px;
+     
+}
