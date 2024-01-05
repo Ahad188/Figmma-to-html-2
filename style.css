@@ -9,9 +9,12 @@
      --1-brand-color-primary-color:#FF6B3D;
      --text-color:#fff;
 }
+section{
+     width: 1990px;
+}
 /* header */
 header{
-     display: flex;
+     display: inline-flex;
      align-items: center;
      gap: 357px;
      padding: 34px 270px;
@@ -20,7 +23,6 @@ header{
 }
 .logo{
      color: var(--primary-text-color);
-     font-family: Plus Jakarta Sans;
      font-size: 21px;
      font-weight: 700;
      line-height: 23.2px;
@@ -30,15 +32,13 @@ ul{
      justify-content: center;
      align-items: center;
      gap: 30px;
-     /* border: 2px solid red; */
 }
 ul li{
-     font-family: Plus Jakarta Sans;
-     font-size: 15px;
-     font-style: normal;
+      
+     font-size: 16px;
      font-weight: 600;
      line-height: 28px;  
-     letter-spacing: -0.51px;
+     /* letter-spacing: -0.51px; */
      text-transform: uppercase;
      color: var(--primary-text-color);
 }
@@ -187,4 +187,39 @@ ul li{
      background-size: cover;
 }
 /* sub banner end */
- 
+ /* client title start */
+ .client-title{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     gap: 20px;
+     width: 942px;
+     height: 213px;
+     margin: 200px auto;
+ }
+ .client-title h2{
+     color: #000;
+     font-size: 76px;
+     font-weight: 500;
+     line-height: 86px;
+     margin-bottom: 20px;
+ }
+ .clients-div h2{
+     color: #000;
+     font-size: 76px;
+     font-weight: 500;
+     line-height: 86px;
+     height: 86px;
+ }
+ .clients-div{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+ }
+ .clients-div img{
+     width: 107px;
+     height: 107px;
+     margin-top: -50px;
+     margin-left: -15px;
+      
+ }
