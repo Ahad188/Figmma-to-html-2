@@ -284,3 +284,109 @@ ul li{
      height: 500px;
      flex-shrink: 0;
  }
+ /* pricing  */
+ .pricing-title{
+     width: 817px;
+     color: #000;
+     text-align: center;
+     font-size: 76px;
+     font-weight: 500;
+     line-height: 86px; 
+     margin: 0 auto; 
+ }
+ .frame {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     gap: 25px;
+     position: relative;
+     margin-left: 50%;
+     width: 457px;
+     margin: 0 auto;
+   }
+   
+   .frame .text-wrapper {
+     position: relative;
+     width: 124px;
+     margin-top: -1px;
+     font-weight: 300;
+     font-style: italic;
+     color: var(--primary-text-color);
+     font-size: 18px;
+     text-align: right;
+     letter-spacing: 0;
+   }
+   
+    .frame .frame-wrapper {
+     flex-direction: column;
+     align-items: flex-end;
+     gap: 20px;
+     display: inline-flex;
+     position: relative;
+     flex: 0 0 auto;
+   }
+   
+   .frame .div {
+     align-items: flex-start;
+     gap: 30px;
+     display: inline-flex;
+     position: relative;
+     flex: 0 0 auto;
+   }
+   
+   .frame .div-2 {
+     align-items: flex-end;
+     gap: 30px;
+     display: inline-flex;
+     position: relative;
+     flex: 0 0 auto;
+   }
+   
+   .frame .text-wrapper-2 {
+     color: var(--primary-text-color);
+     position: relative;
+     font-size: 23px;
+     width: fit-content;
+     margin-top: -1px;
+     text-align: center;
+     white-space: nowrap;
+   }
+   
+   .frame .ellipse-wrapper {
+     align-items: flex-start;
+     gap: 10px;
+     padding: 4px 50px 4px 4px;
+     background-color: var(--1-brand-color-primary-color);
+     border-radius: 800px;
+     display: inline-flex;
+     position: relative;
+     flex: 0 0 auto;
+   }
+   
+   .frame .ellipse {
+     position: relative;
+     width: 30px;
+     height: 30px;
+     background-color: #ffffff;
+     border-radius: 15px;
+   }
+   
+   .frame .text-wrapper-3 {
+     color: var(--primary-text-color);
+     position: relative;
+     font-size: 23px;
+     width: fit-content;
+     margin-top: -1px;
+     text-align: center;
+     white-space: nowrap;
+   }
+   
+   .frame .svgexport {
+     position: relative;
+     width: 44.11px;
+     height: 44.11px;
+     
+   }
+   
+  
+  
