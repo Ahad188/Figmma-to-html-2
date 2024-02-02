@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin:0;
   padding: 0;
   list-style-type: none;
 }
@@ -470,4 +470,98 @@ header {
      width: 380px;
      color: #d3dbe1;
 }
+#brands{
+     width: 100%;
+     margin-top: 200px;
+     /* margin: 0px; */
+     border: 2px solid #FFF;  
+}
+.bran-logo{
+     width: 100%;
+     display: flex;
+     gap: 60px;
+     justify-content: space-between;
+     align-items: center;
+     padding: 40px 0 ;
+}
+.bran-logo h1{
+     color:#1D1A1A;
+     font-family: "Plus Jakarta Sans";
+     font-size: 96px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 105px; /* 109.375% */
+}
  
+.bran-logo:first-child{
+       background: #318FFF;
+       padding: 0 20px;
+       transform: rotate(2deg);
+       z-index: -1;
+       
+}
+.bran-logo:last-child{
+     background: #FFCE59;
+     padding: 0 20px;
+     z-index: 1;
+}
+/* faq */
+.faq{
+     width: 1380px;
+     margin: 199px auto;
+     
+     /* border:  2px solid red; */
+}
+.faq h3{
+     color:#1D1A1A;
+     font-family: "Plus Jakarta Sans";
+     font-size: 57px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 75px; 
+     text-align: center;/* 131.579% */
+}
+.contain{
+     margin-top: 100px;
+     display: flex;
+     justify-content: space-between;
+     gap: 30px;
+}
+.contain .left{
+     /* border: 2px solid red; */
+     margin: 0 auto;
+width: 660px;
+height: 280px;
+
+background: #FFFFFF;
+box-shadow: 0px 12px 36px rgba(0, 0, 0, 0.12);
+border-radius: 20px;
+ 
+
+} 
+
+
+.left .first{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px;
+}
+.first i{
+     font-size: 30px;
+     font-weight: 900;
+}
+.left .pera{
+     margin: 0 auto;
+width: 600px;
+height: 160px;
+font-weight: 400;
+font-size: 23px;
+line-height: 40px;
+ 
+color: #505050;
+
+}
+.last{
+     margin-top: 40px;
+}
