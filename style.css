@@ -14,10 +14,10 @@ section {
   width: 100wh;
 }
 header {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 357px;
-  padding: 34px 270px;
+  padding: 34px 70px;
   max-width: 1925px;
   height: 120px;
 }
@@ -63,20 +63,19 @@ header {
 }
 /* banner start */
 .banner {
-  padding: 34px 270px;
+  padding: 34px 70px;
   max-width: 1925px;
+  
   
 }
 .content {
   max-width: 1380px;
   height: 638px;
-  /* border: 2px solid green; */
   display: flex;
   align-items: center;
   gap: 60px;
 }
 .left h6 {
-  width: 6660px;
   color: var(--primary-text-color);
   font-size: 96px;
   font-weight: 500;
@@ -135,18 +134,17 @@ header {
   width: 529px;
   height: 636px;
 }
+ 
 /* banner ens */
 /* sub banner start */
 .sub {
   position: relative;
-  
 }
 .sub-banner {
   width: 841px;
   height: 425px;
   margin-top: 200px;
-  margin-left: 580px;
-  margin-right: 499px;
+  margin: 200px auto;
   background-color: #fff;
 }
 .sub-banner .fist-p {
@@ -173,7 +171,7 @@ header {
   background-color: rgba(250, 235, 215, 0.256);
 }
 .video {
-  max-width: 1920px;
+  /* max-width: 1920px; */
   height: 1022px;
   margin-top: 100px;
   background: linear-gradient(3deg, #000 -6.76%, rgba(0, 0, 0, 0) 47.27%),
@@ -223,11 +221,12 @@ header {
 /* brand section
   */
 .brand {
+     /* border: 2px solid red; */
   display: inline-flex;
   align-items: center;
   gap: 60px;
   max-width: 1379px;
-  margin: 200px 271px 200px 200px;
+  margin: 200px 70px  ;
 }
 .brand-left {
   /* border: 2px solid red; */
@@ -473,24 +472,25 @@ header {
 #brands{
      width: 100%;
      margin-top: 200px;
-     /* margin: 0px; */
-     border: 2px solid #FFF;  
+      box-sizing: border-box;
+     border: 2px solid #fff;  
 }
 .bran-logo{
-     width: 100%;
+     /* width: 100%; */
      display: flex;
      gap: 60px;
-     justify-content: space-between;
+     /* justify-content: space-between; */
      align-items: center;
      padding: 40px 0 ;
 }
 .bran-logo h1{
      color:#1D1A1A;
      font-family: "Plus Jakarta Sans";
-     font-size: 96px;
-     font-style: normal;
+     font-size: 83px;
      font-weight: 500;
-     line-height: 105px; /* 109.375% */
+     /* height: 185px; */
+     /* padding: 40px, 10px, 40px, 10px; */
+     /* line-height: 105px;   */
 }
  
 .bran-logo:first-child{
@@ -502,7 +502,7 @@ header {
 }
 .bran-logo:last-child{
      background: #FFCE59;
-     padding: 0 20px;
+     padding: 0 20px ;
      z-index: 1;
 }
 /* faq */
