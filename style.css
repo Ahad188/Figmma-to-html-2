@@ -488,9 +488,6 @@ header {
      font-family: "Plus Jakarta Sans";
      font-size: 83px;
      font-weight: 500;
-     /* height: 185px; */
-     /* padding: 40px, 10px, 40px, 10px; */
-     /* line-height: 105px;   */
 }
  
 .bran-logo:first-child{
@@ -530,12 +527,11 @@ header {
 .contain .left{
      /* border: 2px solid red; */
      margin: 0 auto;
-width: 660px;
-height: 280px;
-
-background: #FFFFFF;
-box-shadow: 0px 12px 36px rgba(0, 0, 0, 0.12);
-border-radius: 20px;
+     width: 660px;
+     height: 280px;
+     background: #FFFFFF;
+     box-shadow: 0px 12px 36px rgba(0, 0, 0, 0.12);
+     border-radius: 20px;
  
 
 } 
@@ -564,4 +560,86 @@ color: #505050;
 }
 .last{
      margin-top: 40px;
+}
+/* footer */
+footer{
+     background: #000;
+     padding: 50px 0;
+}
+.fo-content{
+     width:1380px;
+     margin: 0 auto;
+}
+.footer-text{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 60px;
+}
+.footer-text h2{
+          display: inline-block;
+          width: 762px;
+          height: 172px;
+          font-family: 'Plus Jakarta Sans';
+          font-weight: 500;
+          font-size: 76px;
+          line-height: 86px;
+          color: #FFFFFF;
+}
+.contacts{
+     display: flex;
+     gap: 60px;
+}
+.conect1{
+     width: 152px;
+     height: 156px;
+}
+.heading-f{
+     width: 97px;
+     height: 40px;
+     font-family: 'Plus Jakarta Sans';
+     font-weight: 400;
+     font-size: 23px;
+     line-height: 40px;
+     color: #FFFFFF;
+}
+.link{
+     padding: 5px 0;
+}
+.link-t{
+     width: 152px;
+     height: 28px;
+     font-family: 'Plus Jakarta Sans';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 26px;
+     line-height: 28px;
+     letter-spacing: -0.01em;
+     color: #FFFFFF;
+     padding: 3px 0;
+}
+.conect2{
+     width: 198px;
+     height: 156px;
+}
+.e{
+     text-decoration: none;
+}
+.foo-last{
+     
+     margin: 30px auto;
+     display: flex;
+     justify-content: space-between;
+}
+.fo{
+     color: #FFF;
+}
+.foo-last h6{
+     color: #FFF;
+     width: 372px;
+     height: 40px;
+     font-family: 'Plus Jakarta Sans';
+     font-weight: 400;
+     font-size: 23px;
+     line-height: 40px;
 }
